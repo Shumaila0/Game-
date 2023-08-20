@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+  }
+
+  body {
+    background-color: #d8a456;
+    display: grid;
+    justify-content: center;
+    color:rgb(112, 33, 33);
+  }
+  h1{
+    color:brown;
+  }
+  #board {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+
+  td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid BROWN;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
